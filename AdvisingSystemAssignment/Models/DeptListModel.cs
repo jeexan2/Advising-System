@@ -1,0 +1,15 @@
+﻿using CoreDomain.Domain;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace AdvisingSystemAssignment.Models
+{
+    public class DeptListModel
+    {
+        public string Name { get; set; }
+        public int Id { get; set; }
+        
+    }
+}

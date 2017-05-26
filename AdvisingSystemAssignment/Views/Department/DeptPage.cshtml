@@ -1,0 +1,21 @@
+﻿@model AdvisingSystemAssignment.Models.DeptViewModel
+@{
+    ViewBag.Title = "DeptPage";
+}
+@Scripts.Render("~/bundles/jquery")
+<script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.js")" type="text/javascript"></script>
+<script src="/Scripts/MicrosoftAjax.js" type="text/javascript"></script>
+<script src="/Scripts/MicrosoftMvcAjax.js" type="text/javascript"></script>
+
+<script>
+    
+</script>
+<h2>DeptPage</h2>
+
+
+
+
+
+<div id="result"></div>
+
+ <div id="deptcreate">@Html.Partial("DeptCreate", Model.dept)</div>
